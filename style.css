@@ -1,0 +1,22 @@
+table{
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 85%;
+    height: 400px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+th,td{
+    text-align: center;
+    border: 2px solid gray;
+}
+th{
+    background-color: rgb(27, 23, 214);
+    color: aliceblue;
+}
+tr:nth-child(even){
+    background-color: rgb(207, 207, 207);
+}
+tr:hover{
+    background-color: #ddd;
+
+}
